@@ -1,5 +1,94 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(30, 182, 30);
+    text-decoration:solid;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
 .top {
+    margin: 0%;
+    padding: 30px 30px 30px 30px;
+    height:100%;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: whitesmoke;
-    background-image: url(https://cdn.cdkitchen.com/recipes/images/2020/05/17113-9208-mx.jpg);
+    background-image: url("Images/Veggies.jpeg");
+    background-size: cover;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgb(30, 182, 30);
+    border-radius: 15px;
+    border: none;
+    padding: 8px 8px 8px 8px;
+}
+
+body {
+    background-color: #f4f4b7;
+}
+
+p {
+    padding-top: 20px;
+}
+
+/* .p1, .p2, .p3 {
+    /* padding: 50px; 
+} */
+
+.content1 {
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.content2 {
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+
+.img2 {
+    width: 200px;
+    height: 250px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 30px 30px 30px 10px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+}
+
+i {
+    border-style: groove;
+    border-color: rgb(30, 182, 30);
+    border-radius: 8px;
+    padding: 0px 15px 0px 0px;
 }
