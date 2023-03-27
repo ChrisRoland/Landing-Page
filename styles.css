@@ -30,6 +30,27 @@ h3 {
     background-size: cover;
 }
 
+
+.links1 {
+    color: #fff;
+    background-color: blue;
+    border-radius: 30px;
+}
+.links2 {
+    color: #fff;
+    background-color:rgb(52, 191, 219);
+    border-radius: 30px;
+}
+.links3 {
+    color: rgb(230, 0, 255);
+    border-radius: 30px;
+}
+.links4 {
+    color: #f50505;
+    background-color:#fff;
+    border-radius: 30px;
+}
+
 button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 30px;
@@ -85,6 +106,7 @@ footer {
     color: white;
     background-color: rgb(49, 48, 48);
 }
+
 
 i {
     border-style: groove;
